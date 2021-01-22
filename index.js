@@ -6,15 +6,14 @@ var firstName = 'Abby';
 var lastName = 'Taylor';
 var middleInitial = 'V';
 
-var newAmountOfMoneyInWallet = (amountOfMoneyInWallet - itemPrice);
+amountOfMoneyInWallet = amountOfMoneyInWallet - itemPrice;
 console.log(amountOfMoneyInWallet);
 
-var numberOfFriendsMadePerYear = (ageInYears / numberOfFriends);
-console.log(numberOfFriendsMadePerYear);
+numberOfFriends = ageInYears / numberOfFriends;
+console.log(numberOfFriends);
 
-var fullName = (firstName + middleInitial + lastName);
-console.log(fullName);
+console.log(firstName + middleInitial + lastName);
 
-console.log('The amount I have left in my wallet is '+newAmountOfMoneyInWallet);
-console.log('The number of friends I have made per year is: '+ numberOfFriendsMadePerYear);
-console.log('My full name is: ' + fullName);
+console.log('The amount I have left in my wallet is '+amountOfMoneyInWallet);
+console.log('The number of friends I have made per year is: '+ numberOfFriends);
+console.log('My full name is: ' + firstName + middleInitial + lastName);
